@@ -5,4 +5,4 @@ const ItemSchema = new mongoose.Schema({
   notes: String
 });
 
-module.exports = mongoose.model('item', ItemSchema);
+module.exports = mongoose.model('dailytransactions', ItemSchema);
